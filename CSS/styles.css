@@ -56,12 +56,13 @@
     font-family: sans-serif, helvetica, arial;
     font-size: 14px;
     box-shadow: 0px 0px 25px orange;
+    text-align:center
 }
 #nav > ul{
     list-style:none;
     text-decoration:none;
     margin:0px auto;
-    width: 1090px;
+    width: 520px;
 
 }
 
@@ -85,7 +86,7 @@
 #nav > ul > li > ul{
     display: none;
     position: absolute;
-    width: 112px;
+    width: 130px;
     box-shadow: 0px 2px 8px green;
     z-index: 1;
     list-style: none;
@@ -219,6 +220,9 @@ input[type="reset"]:active,button:active{
     width: 95%;
     margin-top:2px;
     margin-bottom:2px;
+}
+#acrearcuenta{
+    text-align: center;
 }
 
 #aside div input[type="submit"],
